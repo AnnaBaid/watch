@@ -4,22 +4,18 @@
   padding: 0;
 }
 
-html, body {
-  height: 100%;  
-}
-
 body {
-  padding: 0;
-  margin: 0;
-  font-family: "League Spartan", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
+  font-family: "League Spartan";
   background: #CECECE;
-  background-repeat: no-repeat;
-  position: relative;
+  color:#161515;
 }
 
 a {
   text-decoration: none;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
 }
