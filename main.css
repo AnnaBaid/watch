@@ -12,6 +12,7 @@
   max-height: 939px;
   background: #f8f8f8;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .info {
@@ -149,12 +150,12 @@
   margin-bottom: 58px;
 }
 
-.about_product::after {
+.about_product::before {
   content: "";
   display: block;
   position: absolute;
   bottom: -9px;
-  color: #707070;
+  background: #707070;
   height: 1px;
   width: calc(100% - 20px);
   left: 50%;
